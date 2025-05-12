@@ -1,0 +1,21 @@
+.cast {
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .cast h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    color:#fff;
+  }
+  
+  .cast-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  
