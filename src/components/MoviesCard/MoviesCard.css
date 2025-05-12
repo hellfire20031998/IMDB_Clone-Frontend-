@@ -34,4 +34,19 @@
     line-height: 1.5;
     color: #cccccc;
   }
+  .details-link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 6px 12px;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .details-link:hover {
+    background-color: #b00610;
+  }
+  
   
