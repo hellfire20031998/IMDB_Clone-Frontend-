@@ -1,0 +1,31 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .pagination .prev,
+  .pagination .next {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    user-select: none;
+  }
+  
+  .pagination .prev:hover,
+  .pagination .next:hover {
+    background-color: #b00610;
+  }
+  
+  .pagination div:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
