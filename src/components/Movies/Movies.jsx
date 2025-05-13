@@ -3,7 +3,7 @@ import MoviesCard from "../MoviesCard/MoviesCard";
 import './Movies.css'
 import Pagination from "../Pagination";
 
-function Movies() {
+function Movies({watchList ,handleAddToWatchList,handleRemoveFromWatchList}) {
     const[movies,setMovies] = useState([]);
     const[pageNo,setPageNo]= useState(1);
 
@@ -33,7 +33,9 @@ function Movies() {
         <div className="card-parent">
         {
            movies.map((movie)=>{
-            return <MoviesCard movie={movie} key={movie.id}/>
+            return <MoviesCard movie={movie} key={movie.id} watchList={watchList}
+            handleAddToWatchList={handleAddToWatchList}
+      handleRemoveFromWatchList={handleRemoveFromWatchList}/>
            }) 
         }
         </div>

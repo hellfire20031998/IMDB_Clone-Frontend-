@@ -3,13 +3,15 @@ import Banner from '../../components/Banner/Banner'
 import Movies from '../../components/Movies/Movies'
 import NavBar from '../../components/NavBar/NavBar'
 
-function HomePage() {
+function HomePage({watchList , handleAddToWatchList,handleRemoveFromWatchList}) {
 
   return (
     <div>
         <NavBar/>
         <Banner/>
-        <Movies/>      
+        <Movies watchList={watchList}
+       handleAddToWatchList={handleAddToWatchList}
+       handleRemoveFromWatchList={handleRemoveFromWatchList}/>      
     </div>
   )
 }

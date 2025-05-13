@@ -48,5 +48,38 @@
   .details-link:hover {
     background-color: #b00610;
   }
+
+  .movie-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    margin: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .movie-card button:hover {
+    background-color: #555;
+  }
+  
+  .movie-card button.add-btn {
+    background-color: #28a745; /* Green for add */
+  }
+  
+  .movie-card button.add-btn:hover {
+    background-color: #218838;
+  }
+  
+  .movie-card button.remove-btn {
+    background-color: #dc3545; /* Red for remove */
+  }
+  
+  .movie-card button.remove-btn:hover {
+    background-color: #c82333;
+  }
+  
   
   
