@@ -1,0 +1,61 @@
+.watchlistcard {
+    width: 300px;
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease;
+  }
+  
+  .watchlistcard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .watchlist-card-img img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .watchlistcard div {
+    padding: 8px 16px;
+  }
+  
+  .watchlistcard div:nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .watchlistcard div:nth-child(3) {
+    font-size: 14px;
+    color: #cccccc;
+    margin-bottom: 12px;
+  }
+  
+  .watchlistcard-button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 12px 16px;
+  }
+  
+  .watchlistcard button {
+    padding: 8px 16px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .watchlistcard button:hover {
+    background-color: #b00610;
+  }
+  

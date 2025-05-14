@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './MoviesCard.css'
 import { Link } from 'react-router-dom'
+import MovieContext from '../Context/MovieContext';
 
-function MoviesCard({movie,watchList,handleAddToWatchList,handleRemoveFromWatchList}) {
+function MoviesCard({movie}) {
+    let {watchList,handleAddToWatchList,handleRemoveFromWatchList} = useContext(MovieContext)
     function doesContains(){
         for(let i=0;i<watchList.length;i++){
             if(watchList[i].id===movie.id){

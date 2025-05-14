@@ -33,9 +33,7 @@ function Movies({watchList ,handleAddToWatchList,handleRemoveFromWatchList}) {
         <div className="card-parent">
         {
            movies.map((movie)=>{
-            return <MoviesCard movie={movie} key={movie.id} watchList={watchList}
-            handleAddToWatchList={handleAddToWatchList}
-      handleRemoveFromWatchList={handleRemoveFromWatchList}/>
+            return <MoviesCard movie={movie} key={movie.id}/>
            }) 
         }
         </div>

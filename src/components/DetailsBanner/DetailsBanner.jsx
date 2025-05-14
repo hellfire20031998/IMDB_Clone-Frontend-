@@ -1,7 +1,7 @@
 import './DetailsBanner.css';
 
 function DetailsBanner({ details }) {
-    console.log(details.genres)
+    
   return (
     <div className="details-banner">
       <div className="details-banner-img">

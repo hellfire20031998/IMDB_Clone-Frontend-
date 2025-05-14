@@ -8,7 +8,7 @@ function NavBar() {
       <div className="nav-logo">🎬 MovieHub</div>
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
-        <li><a href="#trending">Trending</a></li>
+        <li><Link to='/watchlist'>Watch List</Link></li>
         <li><a href="#about">About</a></li>
       </ul>
     </nav>
