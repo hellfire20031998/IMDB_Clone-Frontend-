@@ -7,7 +7,7 @@ import NotFoundPage from './pages/NotFoundPage/NotFoundPage.jsx';
 import DetailsPage from './pages/DetailsPage/DetailsPage.jsx';
 import { useState } from 'react';
 import Callbacks from './components/Callbacks/Callbacks.jsx';
-import MovieContext from './components/Context/MovieContext.jsx';
+import MovieContext from './Context/MovieContext.jsx';
 import WatchListPage from './pages/WatchListPage/WatchListPage.jsx';
 import NavBar from './components/NavBar/NavBar.jsx';
 

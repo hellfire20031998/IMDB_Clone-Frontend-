@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import MovieContext from '../Context/MovieContext';
+import MovieContext from '../../Context/MovieContext';
 import WatchListCard from '../WatchListCard/WatchListCard';
 import './WatchList.css'; // Make sure this file exists
 

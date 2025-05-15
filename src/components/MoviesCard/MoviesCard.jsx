@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './MoviesCard.css'
 import { Link } from 'react-router-dom'
-import MovieContext from '../Context/MovieContext';
+import MovieContext from '../../Context/MovieContext';
 
 function MoviesCard({movie}) {
     let {watchList,handleAddToWatchList,handleRemoveFromWatchList} = useContext(MovieContext)
